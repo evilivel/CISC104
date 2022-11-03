@@ -20,10 +20,12 @@ public class ballMaker : MonoBehaviour
         {
             GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             Rigidbody SRB = sphere.AddComponent<Rigidbody>();
+            //sphere.PhysicMaterial.bounciness = 1;
+            //sphere.PhysicMaterial.bounceCombine.maximum = true;
             //sphere.GetComponent<Collider>().isTrigger = true;
-            SRB.mass = .000001f;
-            SRB.drag = .000001f;
-            //SRB.angular
+            SRB.mass = 0;
+            SRB.drag = 0;
+            SRB.angularDrag=0;
             
             sphere.tag = "ball"; 
             
@@ -50,6 +52,8 @@ public class ballMaker : MonoBehaviour
                     Debug.Log("baallllsss");
                     break;
             }
+
+            SRB.AddForce(0,-4,0,ForceMode.VelocityChange);
 
             ballTime=Time.fixedTime;
 
