@@ -32,7 +32,7 @@ public class CubeTests
         Assert.AreEqual(2, twoByFour.GetHeight());
         Assert.AreEqual(4, twoByFour.GetWidth());
         Assert.AreEqual(6, twoByFour.GetLength());
-        Assert.AreEqual(136, twoByFour.Getedge());
+        Assert.AreEqual(48, twoByFour.Getedge());
         Assert.AreEqual(48, twoByFour.GetVolume());
     }
 
@@ -66,6 +66,6 @@ public class CubeTests
 
         Assert.AreEqual(5, someCube.GetWidth());
         Assert.AreEqual(456, someCube.Getedge());
-        Assert.AreEqual(25020, someCube.GetVolume());
+        Assert.AreEqual(4500, someCube.GetVolume());
     }
 }
