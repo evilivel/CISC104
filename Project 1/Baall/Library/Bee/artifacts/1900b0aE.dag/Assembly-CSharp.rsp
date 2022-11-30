@@ -324,6 +324,7 @@
 -r:"V:/Unity 2021.3.8f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"V:/Unity 2021.3.8f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"V:/Unity/Project/Baall/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/BallAssembly.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
@@ -338,16 +339,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/help.cs"
-"Assets/Scenes/script/ballMaker.cs"
-"Assets/Scenes/script/goal scripts/blueGoal.cs"
-"Assets/Scenes/script/goal scripts/greenGoal.cs"
-"Assets/Scenes/script/goal scripts/redGoal.cs"
-"Assets/Scenes/script/goal scripts/yellowGoal.cs"
-"Assets/Scenes/script/movement/BlueMovement.cs"
-"Assets/Scenes/script/movement/GreenMovement.cs"
-"Assets/Scenes/script/movement/playermovment.cs"
-"Assets/Scenes/script/movement/YellowMovment.cs"
-"Assets/Scenes/script/winlose.cs"
 -langversion:9.0
 
 /deterministic
